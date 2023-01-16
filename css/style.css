@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.foto-perfil {
+        max-width: 100%; /* impede que a imagem seja maior que o tamanho da tela */
+        width: auto; /* permite que a imagem se ajuste ao tamanho da tela */
+        height: auto; /* permite que a imagem se ajuste ao tamanho da tela */
+        object-fit: cover; /* garante que a imagem se adapte corretamente ao tamanho da tela sem distorcer */      
+        border-radius: 50%; 
+}
+
+.corPrimaria {
+    background-color: #18bc9c;
+}
+
+.corSecundaria {
+    background-color: #000000;
+}
+
+p {
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: black !important;
+}
+
+.icones {
+    padding: 5px;
+}
+
+.titulosbrancos {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: rgb(247, 238, 238);
+}
+
+.titulosVerdes {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: #18bc9c;
+}
+
+.textoBranco {
+    color: white !important;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.textoFooter {
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.fab{
+    font-size: 20px;
+}
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.menu{
+    height:40px;
+    float: left;
+    width:20%;
+    text-align: center;
+}
+
+.menu a{
+    line-height:40px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu a:hover{
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: #18bc9c;
+}
